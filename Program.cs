@@ -16,6 +16,13 @@ mediaInputada.RetonaMedia(8.3, 7.45);
 FizzBuzz joguinho1 = new FizzBuzz();
 joguinho1.Main();
 
-Placa placa1 = new Placa();
-placa1.Main();
+//Placa placa1 = new Placa();
+//placa1.Main();
+
+Moto minhaMoto = new Moto();
+minhaMoto.modelo = "Honda CG 160";
+minhaMoto.consumoKmL = 30.0;
+minhaMoto.capacidadeTanque = 15;
+
+minhaMoto.CalcularCustoViagem(200, 7.00);
 
