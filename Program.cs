@@ -26,3 +26,12 @@ minhaMoto.capacidadeTanque = 15;
 
 minhaMoto.CalcularCustoViagem(200, 7.00);
 
+
+ContaBancaria eduardoNubank = new ContaBancaria();
+eduardoNubank.titular = "Eduardo";
+eduardoNubank.saldo = 1000.00;  
+
+eduardoNubank.Depositar(500.00);
+
+eduardoNubank.Sacar(2000);
+
